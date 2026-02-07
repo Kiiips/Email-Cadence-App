@@ -1,0 +1,18 @@
+{
+  "name": "@cadence-app/worker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/worker.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@temporalio/activity": "^1.11.6",
+    "@temporalio/worker": "^1.11.6",
+    "@temporalio/workflow": "^1.11.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
